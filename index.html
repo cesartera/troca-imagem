@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Troca de Imagem</title>
+</head>
+<body>
+    <h1>Troca Imagem</h1>
+
+    <div id="div-principal">
+        <img  id="imagem-principal" src="images/imagem-1.png" alt="fonte: instagram.com/onlyinsf">
+    </div>
+    <div id="galeria-imagens">
+        <img id="image2" class="imagem-menor" onclick="trocarImagem(1)" src="images/imagem-1.png" alt="fonte: instagram.com/onlyinsf">
+        <img id="image1" class="imagem-menor" onclick="trocarImagem(2)" src="images/imagem-2.png" alt="fonte: instagram.com/onlyinsf">
+        <img id="image3" class="imagem-menor" onclick="trocarImagem(3)" src="images/imagem-3.png" alt="fonte: instagram.com/onlyinsf">
+    </div>
+
+    <h2>Clique no botão para trocar a imagem</h2>
+    <button onclick="trocarImagem()">CLIQUE PARA TROCAR DE IMAGEM</button>
+
+<script src="app/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+#imagem-principal{
+    height: 500px;
+    width: auto;
+}
+
+#galeria-imagens {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.imagem-menor {
+    width: 200px;
+    height: auto;
+}
